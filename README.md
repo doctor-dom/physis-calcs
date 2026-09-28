@@ -10,9 +10,9 @@ PHYSIS draws on published methods and clinical references with its main focus of
 
 **Disclaimer**
 
-Please be sure to read the [Disclaimer](https://calc.dom.doctor/disclaimer) and [Terms of Use](ToU.md) before using PHYSIS.
+Please be sure to read the [Disclaimer](https://physiscalcs.dev/disclaimer) and [Terms of Use](ToU.md) before using PHYSIS.
 
-**P.H.Y.S.I.S. Production:** [https://calc.dom.doctor](https://calc.dom.doctor)
+**P.H.Y.S.I.S. Production:** [https://physiscalcs.dev](https://physiscalcs.dev)
 
 **Current release:** **v0.8.2** (28 Aug 2026) — Disclaimer and Terms of Use pages sync from repo markdown.
 
@@ -223,7 +223,7 @@ Completed work tracked in `predeployPHYSIS.md` ([x] items). That file replaced `
 
 - [x] CDC plotting logic fixes
 - [x] Top-banner attribution updated — PHYSIS is an independent app, not a fork of eatyourpeas/endocrinologist
-- [x] Deployed to `calc.dom.doctor` via Cloudflare Workers
+- [x] Deployed to [physiscalcs.dev](https://physiscalcs.dev) via Cloudflare Workers
 - [x] Scheduled midnight UTC GitHub sync — Worker compares `master` SHA and dispatches deploy when changed
 - [x] GitHub Actions deploy workflow (Node 22 build; checkout/setup-node v5)
 - [x] Release planning checklist moved from `predeployPHYSIS.txt` to `predeployPHYSIS.md`
