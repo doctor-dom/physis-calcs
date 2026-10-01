@@ -127,29 +127,44 @@ Collection meaning: Peds Endo Applied Review & Learning Strategies. Catalog entr
 
 
 ## Planned Updates
+Open items below are the roadmap. The same items are filed on the public tracker as `Feature Request: {tool} — …` (`enhancement` + `pended` while open; closed with `completed` when the box is checked): [planned issues](https://github.com/doctor-dom/physis-calcs/issues?q=is%3Aissue+is%3Aopen+label%3Apended+label%3Aenhancement). The header 🔭 opens that list. Checking a box closes the issue, and closing the issue checks the box.
+
 ### Larger tasks
 
-- [ ] CHP X-ray atlas images per landmark/stage (`data/atlas/xr/`)
-- [ ] PHYSIS / CALCS logo
-- [ ] Google Analytics optimization for search and reach
-- [ ] RedCAP pre-test cohort data (PES survey dispersal)
-- [ ] PEARLS learning suite (stim-test interpretation; DKA fluids / new-onset T1DM TDD; parathyroidectomy guideline)
+- [ ] CHP hand X-ray images for each TW3 landmark and stage <!-- planned:xr-atlas -->
+- [ ] PHYSIS and CALCS logos <!-- planned:logos -->
+- [ ] Analytics to improve how people find each calculator <!-- planned:analytics -->
+- [ ] Public GitHub Wiki for PHYSIS CALC <!-- planned:public-wiki -->
+- [ ] Diagnosis-specific growth charts on TW3 output, including expanded CDC 2022 charts <!-- planned:dx-charts-tw3 -->
+- [ ] PES review before wider RedCAP pre-survey sharing <!-- planned:pes-presurvey -->
+- [ ] PEARLS as a third main workflow (hub documented but hidden until promoted) <!-- planned:pearls-hub -->
+  - [ ] Hormone and receptor review <!-- planned:pearls-hormones -->
+  - [ ] Genes and genetics review <!-- planned:pearls-genes -->
+  - [ ] Adrenal steroidogenesis gene review <!-- planned:pearls-adrenal-genes -->
+  - [ ] Stimulation-test interpretation guide (Lab References) <!-- planned:stim-test-guide -->
+  - [ ] DKA fluid guidance and new-onset type 1 TDD help <!-- planned:dka-new-onset -->
+  - [ ] Parathyroidectomy perioperative guideline <!-- planned:parathyroidectomy -->
 
 ### Patch polish
 
-- [ ] QC / “show calculations” footer for each tool
-- [ ] Clean up footer text into info tooltips; references in copy-paste output
-- [ ] Confirm copy-paste functionality for each calculator
+- [ ] Show the calculation steps on every calculator <!-- planned:show-calculations -->
+- [ ] Move leftover footer notes into info tooltips; keep references in the footer <!-- planned:footer-tooltips -->
+- [ ] Confirm every calculator copies a result with its references <!-- planned:copy-paste-audit -->
 
 ### Calculators to add or consider
 
-- [ ] Quick SGA/AGA/LGA determination tool (Outpatient Auxology)
-- [ ] Consider tools from [EndoBora](https://www.endobora.com/?lang=en) (syndrome criteria; SMR/Tanner, Prader/Quigley/Sinnecker/FGS scoring)
-- [ ] Consider TSPED website features ([ceddcozum](https://www.ceddcozum.com/))
+- [ ] Bone turnover marker interpretation (NTX, β-CTX, osteocalcin, bone-specific ALP) <!-- planned:bone-turnover -->
+- [ ] CAH lab interpretation and medication titration (Adrenal collection) <!-- planned:cah-titration -->
+- [ ] Measurement notes for seated height, arm span, and leg length <!-- planned:anthropometry-notes -->
+- [ ] PCOS evaluation rationale tool (Adrenal collection) <!-- planned:pcos-rationale -->
+- [ ] Quick SGA / AGA / LGA classifier (Outpatient Auxology) <!-- planned:sga-aga-lga -->
+- [ ] Picture guides for Tanner, Prader, Quigley, Sinnecker, and Ferriman–Gallwey scores <!-- planned:exam-staging -->
+- [ ] Free Androgen Index calculator (Adrenal collection) <!-- planned:free-androgen-index -->
+- [ ] Further tools inspired by TSPED [ceddcozum](https://www.ceddcozum.com/) (the calculators already listed under that note are shipped)
 
 ## Changelog
 
-Completed work tracked in `predeployPHYSIS.md` ([x] items). That file replaced `predeployPHYSIS.txt` as the Markdown release-planning checklist.
+Completed work tracked in `predeployPHYSIS.md` ([x] items). That file replaced `predeployPHYSIS.txt` as the Markdown release-planning checklist. Those completed tasks are closed GitHub issues labeled `completed`. Unmarked boxes in this changelog are the public write-up and do not create a second issue; a new checkbox under Planned Updates, or any new checkbox in `predeployPHYSIS.md`, is filed if it is not already synced.
 
 ### Growth, bone age & height prediction
 
@@ -236,6 +251,7 @@ Completed work tracked in `predeployPHYSIS.md` ([x] items). That file replaced `
 - [x] Public community repo (`doctor-dom/physis-calcs`) — header Issues/Discussions/Planned Updates links; parallel Actions workflow syncs a community-safe README
 - [x] In-app bug report dialog (👾 header) — tool dropdown, synopsis, optional email; files to `doctor-dom/physis-calcs` via Worker `/api/bug-report` (`GITHUB_ISSUES_TOKEN`); GitHub titles `Bug Report: {tool} — …`
 - [x] In-app feature request dialog (💡 header) — same workflow; GitHub titles `Feature Request: {tool} — …`
+- [x] Planned-updates checklist syncs with public feature issues on `doctor-dom/physis-calcs` (open: `enhancement` + `pended`; checked: closed + `completed`). New checkboxes in `predeployPHYSIS.md` or the README planned list are filed when missing; closing an issue checks the box (`npm run planned:issues`)
 - [x] Persistent footer Terms of Use link (`/terms-of-use`) sharing the disclaimer banner, with UTC last-updated timestamp
 - [x] `/disclaimer` and `/terms-of-use` render from repo-root `Disclaimer.md` and [`ToU.md`](ToU.md) at Vite build/dev (synced on each master deploy)
 - [x] `ToU.md` `Last updated:` stamp synced from the file’s last content-edit time (`npm run legal:stamp` on commit / master push)
