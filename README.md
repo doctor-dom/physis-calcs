@@ -160,7 +160,7 @@ Open items below are the roadmap. The same items are filed on the public tracker
 - [ ] Quick SGA / AGA / LGA classifier (Outpatient Auxology) <!-- planned:sga-aga-lga -->
 - [ ] Picture guides for Tanner, Prader, Quigley, Sinnecker, and Ferriman–Gallwey scores <!-- planned:exam-staging -->
 - [ ] Free Androgen Index calculator (Adrenal collection) <!-- planned:free-androgen-index -->
-- [ ] Further tools inspired by TSPED [ceddcozum](https://www.ceddcozum.com/) (the calculators already listed under that note are shipped)
+- [ ] Further tools inspired by TSPED [ceddcozum](https://www.ceddcozum.com/) (the calculators already listed under that note are shipped) <!-- planned:further-tools-inspired-by-tsped-ceddcozum -->
 
 ## Changelog
 
