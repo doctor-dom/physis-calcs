@@ -242,14 +242,14 @@ Completed work tracked in `predeployPHYSIS.md` ([x] items). That file replaced `
 - [x] Scheduled midnight UTC GitHub sync — Worker compares `master` SHA and dispatches deploy when changed
 - [x] GitHub Actions deploy workflow (Node 22 build; checkout/setup-node v5)
 - [x] Release planning checklist moved from `predeployPHYSIS.txt` to `predeployPHYSIS.md`
-- [x] Sequential release tagging script (`npm run release:tag`) using `vMAJOR.MINOR.PATCH` (`0.y.x` during beta; current **v0.8.5**)
+- [x] Sequential release tagging script (`npm run release:tag`) using `vMAJOR.MINOR.PATCH` (`0.y.x` during beta; current **v0.8.6**)
 - [x] Per-branch pending release deltas (`.release/pending/<branch-slug>.json`; `npm run release:pending:init|show|apply|sync-siblings`) — feature branches record one bump; master apply uses current latest tag; sibling sync brings `origin/master` into other open pending branches only (never merges them onto master; conflicts abort for discussion at that branch’s merge)
-- [x] Header version + last-updated date above feedback icons (`src/data/appVersion.ts`; version **v0.8.5**; last-updated injected at build from HEAD commit date so every master push refreshes it)
+- [x] Header version + last-updated date above feedback icons (`src/data/appVersion.ts`; version **v0.8.6**; last-updated injected at build from HEAD commit date so every master push refreshes it)
 - [x] Home header RedCAP survey links — logo + pre/post emoji links centered between title and GitHub feedback
 - [x] Mobile home header — compact RedCAP + GitHub feedback column to avoid icon overlap
 - [x] Improved PHYSIS favicon (`public/favicon-physis.png`) with cache-busting route favicon hook
 - [x] Public community repo (`doctor-dom/physis-calcs`) — header Issues/Discussions/Planned Updates links; parallel Actions workflow syncs a community-safe README
-- [x] In-app bug report dialog (👾 header) — tool dropdown, synopsis, optional email; files to `doctor-dom/physis-calcs` via Worker `/api/bug-report` (`GITHUB_ISSUES_TOKEN`); GitHub titles `Bug Report: {tool} — …`
+- [x] In-app bug report dialog (👾 header) — tool dropdown, synopsis, optional email; files to `doctor-dom/physis-calcs` via Worker `/api/bug-report` (`PHYSIS_ISSUES_TOKEN`); GitHub titles `Bug Report: {tool} — …`
 - [x] In-app feature request dialog (💡 header) — same workflow; GitHub titles `Feature Request: {tool} — …`
 - [x] Planned-updates checklist syncs with public feature issues on `doctor-dom/physis-calcs` (open: `enhancement` + `pended`; checked: closed + `completed`). New checkboxes in `predeployPHYSIS.md` or the README planned list are filed when missing; closing an issue checks the box (`npm run planned:issues`)
 - [x] Persistent footer Terms of Use link (`/terms-of-use`) sharing the disclaimer banner, with UTC last-updated timestamp
