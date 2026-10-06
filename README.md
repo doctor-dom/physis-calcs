@@ -135,6 +135,7 @@ Open items below are the roadmap. The same items are filed on the public tracker
 - [ ] PHYSIS and CALCS logos <!-- planned:logos -->
 - [ ] Analytics to improve how people find each calculator <!-- planned:analytics -->
 - [ ] Public GitHub Wiki for PHYSIS CALC <!-- planned:public-wiki -->
+- [ ] Consider user ability to sign-in <!-- planned:consider-user-ability-to-sign-in -->
 - [ ] Diagnosis-specific growth charts on TW3 output, including expanded CDC 2022 charts <!-- planned:dx-charts-tw3 -->
 - [ ] PES review before wider RedCAP pre-survey sharing <!-- planned:pes-presurvey -->
 - [ ] PEARLS as a third main workflow (hub documented but hidden until promoted) <!-- planned:pearls-hub -->
@@ -156,6 +157,7 @@ Open items below are the roadmap. The same items are filed on the public tracker
 - [ ] Bone turnover marker interpretation (NTX, β-CTX, osteocalcin, bone-specific ALP) <!-- planned:bone-turnover -->
 - [ ] CAH lab interpretation and medication titration (Adrenal collection) <!-- planned:cah-titration -->
 - [ ] Measurement notes for seated height, arm span, and leg length <!-- planned:anthropometry-notes -->
+- [ ] Changelog clipboard popup of recent changes, following [keep a changelog](https://github.com/olivierlacan/keep-a-changelog) <!-- planned:add-changelog-as-separate-clipboard-emoji -->
 - [ ] PCOS evaluation rationale tool (Adrenal collection) <!-- planned:pcos-rationale -->
 - [ ] Quick SGA / AGA / LGA classifier (Outpatient Auxology) <!-- planned:sga-aga-lga -->
 - [ ] Picture guides for Tanner, Prader, Quigley, Sinnecker, and Ferriman–Gallwey scores <!-- planned:exam-staging -->
@@ -249,7 +251,7 @@ Completed work tracked in `predeployPHYSIS.md` ([x] items). That file replaced `
 - [x] Mobile home header — compact RedCAP + GitHub feedback column to avoid icon overlap
 - [x] Improved PHYSIS favicon (`public/favicon-physis.png`) with cache-busting route favicon hook
 - [x] Public community repo (`doctor-dom/physis-calcs`) — header Issues/Discussions/Planned Updates links; parallel Actions workflow syncs a community-safe README
-- [x] In-app bug report dialog (👾 header) — tool dropdown, synopsis, optional email; files to `doctor-dom/physis-calcs` via Worker `/api/bug-report` (`PHYSIS_ISSUES_TOKEN`); GitHub titles `Bug Report: {tool} — …`
+- [x] In-app bug report dialog (👾 header) — tool dropdown, synopsis, optional email; files to `doctor-dom/physis-calcs` via Worker `/api/bug-report` (`GITHUB_ISSUES_TOKEN`); GitHub titles `Bug Report: {tool} — …`
 - [x] In-app feature request dialog (💡 header) — same workflow; GitHub titles `Feature Request: {tool} — …`
 - [x] Planned-updates checklist syncs with public feature issues on `doctor-dom/physis-calcs` (open: `enhancement` + `pended`; checked: closed + `completed`). New checkboxes in `predeployPHYSIS.md` or the README planned list are filed when missing; closing an issue checks the box (`npm run planned:issues`)
 - [x] Persistent footer Terms of Use link (`/terms-of-use`) sharing the disclaimer banner, with UTC last-updated timestamp
