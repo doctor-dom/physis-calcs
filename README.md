@@ -127,7 +127,7 @@ Collection meaning: Peds Endo Applied Review & Learning Strategies. Catalog entr
 
 
 ## Planned Updates
-Open items below are the roadmap. The same items are filed on the public tracker as `Feature Request: {tool} — …` (`enhancement` + `pended` while open; closed with `completed` when the box is checked): [planned issues](https://github.com/doctor-dom/physis-calcs/issues?q=is%3Aissue+is%3Aopen+label%3Apended+label%3Aenhancement). The header 🔭 opens that list. Checking a box closes the issue, and closing the issue checks the box.
+Open items below are the roadmap. The same items are filed on the public tracker as `Feature Request: {tool} — …` (`enhancement` + `pended` while open; closed with `completed` when the box is checked): [planned issues](https://github.com/doctor-dom/physis-calcs/issues?q=is%3Aissue+is%3Aopen+label%3Apended+label%3Aenhancement). The header 📋 changelog popup lists shipped releases; its footer opens that planned list. Checking a box closes the issue, and closing the issue checks the box.
 
 ### Larger tasks
 
@@ -157,7 +157,6 @@ Open items below are the roadmap. The same items are filed on the public tracker
 - [ ] Bone turnover marker interpretation (NTX, β-CTX, osteocalcin, bone-specific ALP) <!-- planned:bone-turnover -->
 - [ ] CAH lab interpretation and medication titration (Adrenal collection) <!-- planned:cah-titration -->
 - [ ] Measurement notes for seated height, arm span, and leg length <!-- planned:anthropometry-notes -->
-- [ ] Changelog clipboard popup of recent changes, following [keep a changelog](https://github.com/olivierlacan/keep-a-changelog) <!-- planned:add-changelog-as-separate-clipboard-emoji -->
 - [ ] PCOS evaluation rationale tool (Adrenal collection) <!-- planned:pcos-rationale -->
 - [ ] Quick SGA / AGA / LGA classifier (Outpatient Auxology) <!-- planned:sga-aga-lga -->
 - [ ] Picture guides for Tanner, Prader, Quigley, Sinnecker, and Ferriman–Gallwey scores <!-- planned:exam-staging -->
@@ -255,6 +254,7 @@ Completed work tracked in `predeployPHYSIS.md` ([x] items). That file replaced `
 - [x] In-app bug report dialog (👾 header) — tool dropdown, synopsis, optional email; files to `doctor-dom/physis-calcs` via Worker `/api/bug-report` (`GITHUB_ISSUES_TOKEN`); GitHub titles `Bug Report: {tool} — …`
 - [x] In-app feature request dialog (💡 header) — same workflow; GitHub titles `Feature Request: {tool} — …`
 - [x] Planned-updates checklist syncs with public feature issues on `doctor-dom/physis-calcs` (open: `enhancement` + `pended`; checked: closed + `completed`). New checkboxes in `predeployPHYSIS.md` or the README planned list are filed when missing; closing an issue checks the box (`npm run planned:issues`)
+- [x] Changelog clipboard popup (📋 header) — shipped releases grouped by moderate `v0.y.0` updates with patches nested inside; [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) formatting from repo-root `CHANGELOG.md` (seeded from release tags; updated on `npm run release:tag`); footer links planned GitHub issues
 - [x] Persistent footer Terms of Use link (`/terms-of-use`) sharing the disclaimer banner, with UTC last-updated timestamp
 - [x] `/disclaimer` and `/terms-of-use` render from repo-root `Disclaimer.md` and [`ToU.md`](ToU.md) at Vite build/dev (synced on each master deploy)
 - [x] `ToU.md` `Last updated:` stamp synced from the file’s last content-edit time (`npm run legal:stamp` on commit / master push)
