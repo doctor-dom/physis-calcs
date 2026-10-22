@@ -14,7 +14,7 @@ Please be sure to read the [Disclaimer](https://physiscalcs.dev/disclaimer) and 
 
 **P.H.Y.S.I.S. Production:** [https://physiscalcs.dev](https://physiscalcs.dev)
 
-**Current release:** **v0.8.7** (20 Oct 2026) — TW3 hand navigator graphic (radius/ulna artwork) and landmark hit-region alignment.
+**Current release:** **v0.8.10** (22 Oct 2026) — Changelog sync from completed GitHub issues; pending-updates UI and related shipped work (see [`CHANGELOG.md`](CHANGELOG.md)).
 
 ## Primary workflow: growth & height prediction
 
