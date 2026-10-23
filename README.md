@@ -98,7 +98,7 @@ Legacy route `/calculators/normograms` redirects to `/calculators/gonad-auxology
 | Growth Velocity SDS — infant WHO–Tanner (≤5.9 y) or pediatric HV both ancestries (>5.9 y) | `/gv-sds` |
 | Anthropometric ratio tools — SHOX/XO sit–stand and arm-span screening; sitting height SDS; ACH SH/LL SDS | `/anthropometric-ratio-tools` |
 | Diagnosis-Specific Growth — Shyr GAMLSS condition height SDS/%ile (2–20 y; optional unaffected overlay) | `/diagnosis-specific-growth` |
-| Physical Exam Staging Guide | Coming soon |
+| Physical Exam Staging Guide — Tanner/SMR, EGS, Prader, Quigley, Sinnecker, modified Ferriman–Gallwey | `/physical-exam-staging-guide` |
 
 ### Outpatient Endocrinology (`/calculators/outpatient-endocrinology`)
 
