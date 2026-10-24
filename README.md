@@ -43,6 +43,7 @@ The main workflow (`/growth`) guides TW3-RUS bone age scoring through adult heig
 | --- | --- |
 | BSA (Haycock or Costeff weight-only) & steroid potency wean/converter | `/bsa-steroid` |
 | 17OHP Intrepretation in Prematurity (Olgemöller 2003 and Pode-Shakked 2018) | `/cah-screening` |
+| CAH surveillance interpretation — hydrocortisone and fludrocortisone (Florinef) adjustments | Coming soon |
 | XY DSD Steroid Panel — post-hCG T/DHT, T/Δ4A, ASI; Esoterix T/DHT/Δ4A conversion | `/xy-dsd-steroid-panel` |
 
 ### Bone Health (`/calculators/bone-health`)
@@ -68,6 +69,7 @@ Legacy routes `/trp` and `/ccr` redirect to `/renal-electrolytes`.
 | Insulin Resistant Indices — HOMA-IR, QUICKI, SPISE, Matsuda (optional OGTT) | `/insulin-resistant-indices` |
 | MODY Clinical Calculator — at diagnosis (age &lt; 20) or Exeter post-6-month PPV (≤35 y) | `/mody-clinical-calculator` |
 | Glycemia Risk Index (GRI) Calculator — AGP % → TIR, GRI, hypo/hyper components, zones A–E | `/glycemia-risk-index` |
+| New Onset T1DM Insulin Regimen Tool — TDD, Lantus, ISF, and ICR from weight and presentation | Coming soon |
 
 ### Electrolytes/Fluids (`/calculators/electrolytes`)
 
@@ -99,6 +101,7 @@ Legacy route `/calculators/normograms` redirects to `/calculators/gonad-auxology
 | Anthropometric ratio tools — SHOX/XO sit–stand and arm-span screening; sitting height SDS; ACH SH/LL SDS | `/anthropometric-ratio-tools` |
 | Diagnosis-Specific Growth — Shyr GAMLSS condition height SDS/%ile (2–20 y; optional unaffected overlay) | `/diagnosis-specific-growth` |
 | Physical Exam Staging Guide — Tanner/SMR, EGS, Prader, Quigley, Sinnecker, modified Ferriman–Gallwey | `/physical-exam-staging-guide` |
+| Quick BW-for-GA tool — birth weight and gestational age → SGA, AGA, or LGA | Coming soon |
 
 ### Outpatient Endocrinology (`/calculators/outpatient-endocrinology`)
 
