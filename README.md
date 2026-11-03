@@ -97,9 +97,10 @@ Legacy route `/calculators/normograms` redirects to `/calculators/gonad-auxology
 | Tool | Route |
 | --- | --- |
 | Pediatric hypertensive BP percentiles (AAP 2017) | `/pediatric-bp` |
+| Pediatric Extended BMI — CDC 95th %ile + Classes I–III and 4–5 | `/pediatric-extended-bmi` |
 | Growth Velocity SDS — infant WHO–Tanner (≤5.9 y) or pediatric HV both ancestries (>5.9 y) | `/gv-sds` |
 | Anthropometric ratio tools — SHOX/XO sit–stand and arm-span screening; sitting height SDS; ACH SH/LL SDS | `/anthropometric-ratio-tools` |
-| Diagnosis-Specific Growth — Shyr GAMLSS condition height SDS/%ile (2–20 y; optional unaffected overlay) | `/diagnosis-specific-growth` |
+| Diagnosis-Specific Growth — Shyr GAMLSS height SDS/%ile (2–20 y) plus PHP1A height/weight (Polish 2026, 3–18 y; optional CDC overlay) | `/diagnosis-specific-growth` |
 | Physical Exam Staging Guide — Tanner/SMR, EGS, Prader, Quigley, Sinnecker, modified Ferriman–Gallwey | `/physical-exam-staging-guide` |
 | Quick BW-for-GA tool — birth weight and gestational age → SGA, AGA, or LGA | Coming soon |
 
