@@ -102,7 +102,7 @@ Legacy route `/calculators/normograms` redirects to `/calculators/gonad-auxology
 | Anthropometric ratio tools — SHOX/XO sit–stand and arm-span screening; sitting height SDS; ACH SH/LL SDS | `/anthropometric-ratio-tools` |
 | Diagnosis-Specific Growth — Shyr GAMLSS height SDS/%ile (2–20 y) plus PHP1A height/weight (Polish 2026, 3–18 y; optional CDC overlay) | `/diagnosis-specific-growth` |
 | Physical Exam Staging Guide — Tanner/SMR, EGS, Prader, Quigley, Sinnecker, modified Ferriman–Gallwey | `/physical-exam-staging-guide` |
-| Quick BW-for-GA tool — birth weight and gestational age → SGA, AGA, or LGA | Coming soon |
+| Quick BW-for-GA tool — SGA/AGA/LGA (Chou 2026) plus ELBW, VLBW, LBW, graded macrosomia (Blencowe 2025) | `/quick-bw-for-ga` |
 
 ### Outpatient Endocrinology (`/calculators/outpatient-endocrinology`)
 
