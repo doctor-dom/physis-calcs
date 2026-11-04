@@ -112,6 +112,7 @@ Legacy route `/calculators/normograms` redirects to `/calculators/gonad-auxology
 | IGF-1 / IGFBP-3 Z-score — multi-assay SDS + optional Tanner/SMR | `/igf1-zscore-roche` |
 | GH dosing — Initiate & Titrate (daily/weekly; doses/week schedule; obese Costeff/Mosteller BSA; indication start ranges; calculated vs pen dose; selectable pen strengths with exact/rounded 28-day supply) | `/gh-dosing` |
 | Levothyroxine dosing — age-based mcg/kg; optional BSA (100 mcg/m²) after 1 y | `/levothyroxine-dosing` |
+| NHLBI/PES/ADA Lipid Guideline — NHLBI/AHA bands, risk stratification, CHILD-1/CHILD-2, statin pathways | `/lipid-guideline` |
 
 ### Lab References (`/calculators/lab-assays`)
 
