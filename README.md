@@ -43,7 +43,7 @@ The main workflow (`/growth`) guides TW3-RUS bone age scoring through adult heig
 | --- | --- |
 | BSA (Haycock or Costeff weight-only) & steroid potency wean/converter | `/bsa-steroid` |
 | 17OHP Intrepretation in Prematurity (Olgemöller 2003 and Pode-Shakked 2018) | `/cah-screening` |
-| CAH surveillance interpretation — hydrocortisone and fludrocortisone (Florinef) adjustments | Coming soon |
+| CAH surveillance interpretation — hydrocortisone and fludrocortisone (Florinef) adjustments | `/cah-interpretation` |
 | XY DSD Steroid Panel — post-hCG T/DHT, T/Δ4A, ASI; Esoterix T/DHT/Δ4A conversion | `/xy-dsd-steroid-panel` |
 
 ### Bone Health (`/calculators/bone-health`)
@@ -54,7 +54,7 @@ The main workflow (`/growth`) guides TW3-RUS bone age scoring through adult heig
 | Calcium dosing (enteral / parenteral) | `/calcium-dosing` |
 | Figueras-Aloy MBDP risk-score | `/figueras-aloy-mbdp` |
 | DXA BMD Interpretation | `/dxa-bmd-interpretation` |
-| Bone Turnover labs | Coming soon |
+| Bone turnover (P1NP and β-CTX) | `/bone-turnover-labs` |
 
 Legacy routes `/trp` and `/ccr` redirect to `/renal-electrolytes`.
 
@@ -69,7 +69,7 @@ Legacy routes `/trp` and `/ccr` redirect to `/renal-electrolytes`.
 | Insulin Resistant Indices — HOMA-IR, QUICKI, SPISE, Matsuda (optional OGTT) | `/insulin-resistant-indices` |
 | MODY Clinical Calculator — at diagnosis (age &lt; 20) or Exeter post-6-month PPV (≤35 y) | `/mody-clinical-calculator` |
 | Glycemia Risk Index (GRI) Calculator — AGP % → TIR, GRI, hypo/hyper components, zones A–E | `/glycemia-risk-index` |
-| New Onset T1DM Insulin Regimen Tool — TDD, Lantus, ISF, and ICR from weight and presentation | Coming soon |
+| New Onset T1DM TDD Wizard — point index, TDD, Lantus, ISF, ICR, rounding & pins | `/new-onset-t1dm-tdd` |
 
 ### Electrolytes/Fluids (`/calculators/electrolytes`)
 
