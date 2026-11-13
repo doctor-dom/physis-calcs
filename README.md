@@ -65,7 +65,7 @@ Legacy routes `/trp` and `/ccr` redirect to `/renal-electrolytes`.
 | A1c ↔ GMI ↔ fructosamine ↔ eAG (Cohen et al. preferred; Young et al. alternate) | `/a1c-converter` |
 | Insulin MDI → sliding scale (ISS) | `/insulin-mdi-iss` |
 | Diluted ISS generation | `/insulin-diluted-iss` |
-| TDD estimator and MDI calculator — bolus (½/whole U) or TDD / % basal / ISF / ICR | `/tdd-mdi` |
+| MDI Calculator + TDD Estimator — raw bolus with ISF and ICR composites, or TDD / % basal / ISF / ICR | `/tdd-mdi` |
 | Insulin Resistant Indices — HOMA-IR, QUICKI, SPISE, Matsuda (optional OGTT) | `/insulin-resistant-indices` |
 | MODY Clinical Calculator — at diagnosis (age &lt; 20) or Exeter post-6-month PPV (≤35 y) | `/mody-clinical-calculator` |
 | Glycemia Risk Index (GRI) Calculator — AGP % → TIR, GRI, hypo/hyper components, zones A–E | `/glycemia-risk-index` |
@@ -89,6 +89,7 @@ Legacy routes `/trp` and `/ccr` redirect to `/renal-electrolytes`.
 | Stretched penile length (child) — Bulgarian, Schonfeld, and Feldman references | `/spl-child` |
 | Clitoral length/width (neonate) — Alaei et al. nomogram | `/clitoral-dimension` |
 | Uterine / ovarian SDS — Gilligan 2019 pelvic US mean±SD | `/uterine-ovary-sds` |
+| Physical Exam Staging Guide — Tanner/SMR, EGS, Prader, Quigley, Sinnecker, modified Ferriman–Gallwey | `/physical-exam-staging-guide` |
 
 Legacy route `/calculators/normograms` redirects to `/calculators/gonad-auxology`.
 
@@ -101,7 +102,6 @@ Legacy route `/calculators/normograms` redirects to `/calculators/gonad-auxology
 | Growth Velocity SDS — infant WHO–Tanner (≤5.9 y) or pediatric HV both ancestries (>5.9 y) | `/gv-sds` |
 | Anthropometric ratio tools — SHOX/XO sit–stand and arm-span screening; sitting height SDS; ACH SH/LL SDS | `/anthropometric-ratio-tools` |
 | Diagnosis-Specific Growth — Shyr GAMLSS height SDS/%ile (2–20 y) plus PHP1A height/weight (Polish 2026, 3–18 y; optional CDC overlay) | `/diagnosis-specific-growth` |
-| Physical Exam Staging Guide — Tanner/SMR, EGS, Prader, Quigley, Sinnecker, modified Ferriman–Gallwey | `/physical-exam-staging-guide` |
 | Quick BW-for-GA tool — SGA/AGA/LGA (Chou 2026) plus ELBW, VLBW, LBW, graded macrosomia (Blencowe 2025) | `/quick-bw-for-ga` |
 
 ### Outpatient Endocrinology (`/calculators/outpatient-endocrinology`)
@@ -118,8 +118,8 @@ Legacy route `/calculators/normograms` redirects to `/calculators/gonad-auxology
 
 | Tool | Route |
 | --- | --- |
-| EMR import + Esoterix RefRange tools — paste Epic or Cerner exports; age/sex/SMR/draw-time Esoterix USA ranges with flags | `/lab-interpretation` |
-| Lab Search/ Conversion + Esoterix Reference Ranges | `/esoterix-labs` |
+| EMR Lab import + Plotting — paste Epic or Cerner exports; age/sex/SMR/draw-time Esoterix USA ranges with flags | `/lab-interpretation` |
+| Esoterix Reference Range + Unit Conversion | `/esoterix-labs` |
 
 ### PEARLS (`/calculators/pearls`) — planned; hub hidden in CALCS UI
 
